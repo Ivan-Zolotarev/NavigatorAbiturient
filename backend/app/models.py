@@ -1,7 +1,16 @@
 from sqlalchemy import Boolean, ForeignKey, Integer, Text
+from sqlalchemy.dialects.postgresql import ENUM
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.database import Base
+
+college_type_enum = ENUM(
+    "state",
+    "private",
+    "federal",
+    name="college_type",
+    create_type=False,
+)
 
 
 class College(Base):
@@ -9,7 +18,7 @@ class College(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(Text, nullable=False)
-    type: Mapped[str] = mapped_column(Text, nullable=False)
+    type: Mapped[str] = mapped_column(college_type_enum, nullable=False)
     short_description: Mapped[str] = mapped_column(Text, nullable=False)
     district: Mapped[str | None] = mapped_column(Text)
     address: Mapped[str | None] = mapped_column(Text)

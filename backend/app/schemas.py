@@ -1,6 +1,6 @@
-from typing import Optional
+from typing import Any, Optional
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, field_validator
 
 
 class SpecialtyOut(BaseModel):
@@ -29,6 +29,11 @@ class CollegeOut(BaseModel):
     installment_available: Optional[bool] = None
     special_admission_conditions: Optional[str] = None
     has_dormitory: Optional[bool] = None
+
+    @field_validator("type", mode="before")
+    @classmethod
+    def coerce_type(cls, value: Any) -> str:
+        return str(value)
 
 
 class CollegesResponse(BaseModel):

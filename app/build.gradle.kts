@@ -20,8 +20,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("boolean", "USE_MOCK", "true")
-        buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:8000/\"")
+        buildConfigField("boolean", "USE_MOCK", "false")
+        buildConfigField("String", "API_BASE_URL", "\"http://193.188.20.110:8000/\"")
     }
 
     buildTypes {

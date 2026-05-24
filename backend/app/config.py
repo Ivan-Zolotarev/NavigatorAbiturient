@@ -6,6 +6,7 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql://navigator_user:password@postgres:5432/navigator"
     cors_origins: str = "*"
+    debug: bool = True
 
 
 settings = Settings()
