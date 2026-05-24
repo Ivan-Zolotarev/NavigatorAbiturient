@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Навигатор Абитуриента</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_documents">Документы</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Splash -->
+    <string name="splash_title">Навигатор Абитуриента</string>
+    <string name="splash_loading">Загрузка данных…</string>
+    <string name="splash_error">Не удалось загрузить данные</string>
+
+    <!-- Home -->
+    <string name="home_title">Навигатор Абитуриента</string>
+    <string name="home_hint">Выберите категорию колледжей</string>
+    <string name="colleges_state">ГОСУДАРСТВЕННЫЕ КОЛЛЕДЖИ</string>
+    <string name="colleges_private">ЧАСТНЫЕ КОЛЛЕДЖИ</string>
+    <string name="colleges_federal">ФЕДЕРАЛЬНЫЕ КОЛЛЕДЖИ</string>
+
+    <!-- College list -->
+    <string name="college_list_title_state">Государственные колледжи</string>
+    <string name="college_list_title_private">Частные колледжи</string>
+    <string name="college_list_title_federal">Федеральные колледжи</string>
+    <string name="college_details">Подробнее</string>
+    <string name="college_back">Назад</string>
+    <string name="college_empty">Колледжи не найдены</string>
+    <string name="college_loading">Загрузка…</string>
+    <string name="college_error">Не удалось загрузить данные</string>
+    <string name="college_retry">Повторить</string>
+    <string name="favorite_add">Добавить в избранное</string>
+    <string name="favorite_remove">Удалить из избранного</string>
+    <string name="cache_shown_snackbar">Показаны сохранённые данные</string>
+
+    <!-- College detail -->
+    <string name="detail_specialties">Специальности</string>
+    <string name="detail_budget_places">Бюджетных мест: %1$d</string>
+    <string name="detail_paid_places">Платных мест: %1$d</string>
+    <string name="detail_passing_score">Проходной балл: %1$d</string>
+    <string name="detail_website">Официальный сайт</string>
+    <string name="detail_address">Адрес: %1$s</string>
+    <string name="detail_district">Район: %1$s</string>
+    <string name="detail_tuition_cost">Стоимость: %1$s</string>
+    <string name="detail_installment_yes">Рассрочка доступна</string>
+    <string name="detail_installment_no">Рассрочка недоступна</string>
+    <string name="detail_special_conditions">Особые условия: %1$s</string>
+    <string name="detail_dormitory_yes">Общежитие: есть</string>
+    <string name="detail_dormitory_no">Общежитие: нет</string>
+    <string name="list_tuition_short">от %1$s</string>
+    <string name="list_dormitory">Общежитие</string>
+
+    <!-- Search -->
+    <string name="search_hint">Название колледжа или специальности</string>
+    <string name="search_filter_budget">Только бюджет</string>
+    <string name="search_filter_paid">Только платное</string>
+    <string name="search_filter_min_score">Мин. проходной балл</string>
+    <string name="search_filter_district">Район</string>
+    <string name="search_filter_district_all">Все районы</string>
+    <string name="search_apply">Найти</string>
+    <string name="search_empty">Ничего не найдено</string>
+
+    <!-- Documents -->
+    <string name="documents_title">Документы</string>
+    <string name="documents_open_link">Открыть ссылку</string>
+    <string name="documents_open_pdf">Открыть PDF</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_favorites">Избранное</string>
+    <string name="profile_settings">Настройки</string>
+    <string name="profile_faq">F.A.Q.</string>
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_empty">В избранном пока ничего нет</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_clear_cache">Очистить кэш колледжей</string>
+    <string name="settings_cache_cleared">Кэш очищен</string>
+</resources>

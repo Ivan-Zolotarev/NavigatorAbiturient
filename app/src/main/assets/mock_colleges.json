@@ -1,0 +1,92 @@
+{
+  "colleges": [
+    {
+      "id": 1,
+      "name": "Колледж связи № 54",
+      "type": "state",
+      "short_description": "Информационные технологии, телекоммуникации — 120 мест",
+      "district": "Центральный",
+      "address": "Москва, ул. Большая Почтовая, 18",
+      "website_url": "https://www.mos.ru",
+      "specialties": [
+        {
+          "id": 101,
+          "name": "Информационные системы и программирование",
+          "budget_places": 25,
+          "paid_places": 10,
+          "passing_score": 4,
+          "admission_info": "Приём по результатам ОГЭ и внутренних испытаний."
+        },
+        {
+          "id": 102,
+          "name": "Сетевое и системное администрирование",
+          "budget_places": 20,
+          "paid_places": 5,
+          "passing_score": 4,
+          "admission_info": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Политехнический колледж № 8",
+      "type": "state",
+      "short_description": "Инженерные специальности — 95 мест",
+      "district": "Юго-Западный",
+      "address": "Москва, ул. Профсоюзная, 78",
+      "website_url": "https://www.mos.ru",
+      "specialties": [
+        {
+          "id": 201,
+          "name": "Техническая эксплуатация летательных аппаратов",
+          "budget_places": 15,
+          "paid_places": 0,
+          "passing_score": 5,
+          "admission_info": "Требуется портфолио."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Московский колледж дизайна",
+      "type": "private",
+      "short_description": "Дизайн, реклама — 60 мест",
+      "district": "Центральный",
+      "address": "Москва, ул. Тверская, 12",
+      "website_url": "https://example.com",
+      "tuition_cost": "от 180 000 ₽/год",
+      "installment_available": true,
+      "specialties": [
+        {
+          "id": 301,
+          "name": "Дизайн (по отраслям)",
+          "budget_places": 0,
+          "paid_places": 30,
+          "passing_score": null,
+          "admission_info": "Творческое испытание обязательно."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Колледж пожарной безопасности",
+      "type": "federal",
+      "short_description": "Пожарная безопасность — 40 мест",
+      "district": "Южный",
+      "address": "Москва, Варшавское ш., 125",
+      "website_url": "https://example.com",
+      "special_admission_conditions": "Медицинская справка, нормативы ГТО",
+      "has_dormitory": true,
+      "specialties": [
+        {
+          "id": 401,
+          "name": "Пожарная безопасность",
+          "budget_places": 30,
+          "paid_places": 0,
+          "passing_score": 4,
+          "admission_info": "Общежитие предоставляется иногородним."
+        }
+      ]
+    }
+  ]
+}

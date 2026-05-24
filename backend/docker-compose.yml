@@ -1,0 +1,18 @@
+# Подключение к уже запущенному postgres-stack на VPS.
+# Сеть postgres-stack_dbnet создаётся при docker compose up в ~/postgres-stack.
+
+services:
+  api:
+    build: .
+    container_name: navigator-api
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "8000:8000"
+    networks:
+      - dbnet
+
+networks:
+  dbnet:
+    external: true
+    name: postgres-stack_dbnet
